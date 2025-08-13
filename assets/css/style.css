@@ -1,0 +1,384 @@
+:root {
+  --green-500: hsl(171, 66%, 44%);
+  --blue-100: hsl(233, 100%, 69%);
+  --gray-700: hsl(210, 10%, 33%);
+  --gray-500: hsl(201, 15%, 93%);
+}
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btn {
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 600;
+}
+.ios {
+  background-color: var(--green-500);
+}
+.mac {
+  background-color: var(--blue-100);
+}
+.btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+.header-photo {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header-photo img {
+  width: 80px;
+  padding-bottom: 20px;
+}
+.hero {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero h1 {
+  opacity: 0.7;
+  font-size: 36px;
+}
+.hero p {
+  opacity: 0.4;
+  text-align: center;
+  width: 50%;
+  font-weight: 300;
+}
+
+.desc {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.desc h1 {
+  opacity: 0.7;
+  font-size: 36px;
+}
+.desc p {
+  opacity: 0.4;
+  text-align: center;
+  width: 45%;
+  font-weight: 300;
+}
+.features {
+  margin: 60px 0;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.computer-desc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.computer-desc h1 {
+  opacity: 0.7;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.computer-desc p {
+  opacity: 0.4;
+  width: 70%;
+  font-size: 14px;
+
+  font-weight: 300;
+}
+.access {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.access h1 {
+  opacity: 0.7;
+  font-size: 36px;
+}
+.access p {
+  opacity: 0.6;
+  text-align: center;
+  width: 45%;
+  font-weight: 300;
+  word-spacing: 1px;
+}
+.image-device {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.supercharge {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.supercharge h1 {
+  opacity: 0.7;
+  font-size: 36px;
+}
+.supercharge p {
+  opacity: 0.5;
+  text-align: center;
+  font-weight: 300;
+  word-spacing: 1px;
+}
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;
+}
+.icons div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 35px;
+}
+.icons div h3 {
+  font-size: 20px;
+  opacity: 0.7;
+}
+.icons div p {
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 1.7;
+}
+.social-icons {
+  margin: 150px 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.clipboard {
+  margin: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.clipboard h1 {
+  opacity: 0.7;
+  font-size: 36px;
+}
+.clipboard p {
+  opacity: 0.4;
+  text-align: center;
+  width: 50%;
+  font-weight: 300;
+}
+footer {
+  background-color: var(--gray-500);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+footer .footer-logo img {
+  width: 50px;
+}
+.footer-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  font-size: 16px;
+  opacity: 0.6;
+}
+.social-media-icons {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  /* Header background for mobile */
+  .header-photo {
+    background-image: url("../images/bg-header-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px; /* good mobile height */
+  }
+
+  /* HERO */
+  .hero h1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+  }
+  .hero p {
+    width: 90%;
+    font-size: 14px;
+  }
+  .hero .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  /* DESCRIPTION SECTION */
+  .desc h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .desc p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  /* FEATURES SECTION */
+  .features {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  .computer-screen img {
+    max-width: 90%;
+    height: auto;
+  }
+  .computer-desc {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    gap: 40px;
+  }
+  .computer-desc p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* ACCESS SECTION */
+  .access h1 {
+    line-height: 1;
+  }
+  .access p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  /* DEVICES IMAGE */
+  .image-device img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  /* SUPERCHARGE SECTION */
+  .supercharge {
+    margin-bottom: 100px;
+  }
+  .supercharge h1 {
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+    line-height: 1;
+  }
+  .supercharge p {
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+  }
+
+  /* ICONS SECTION */
+  .icons {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 0 20px;
+  }
+  .icons img {
+    width: 60px;
+  }
+  .icons div p {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  /* SOCIAL ICONS */
+  .social-icons {
+    flex-direction: column;
+    gap: 40px;
+    margin: 100px;
+  }
+
+  /* CLIPBOARD SECTION */
+  .clipboard h1 {
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+  }
+  .clipboard p {
+    width: 60%;
+    font-size: 14px;
+  }
+  .clipboard .buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .footer-text {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .social-media-icons {
+    justify-content: center;
+  }
+}
